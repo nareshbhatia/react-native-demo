@@ -1,0 +1,23 @@
+{
+  "name": "react-native-demo",
+  "description": "A simple React Native demo using Expo",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "author": "Naresh Bhatia",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "format": "prettier --write 'App.js' '{components,constants,navigation,screens,services}/**/*.js'"
+  },
+  "dependencies": {
+    "expo": "^30.0.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-navigation": "^2.18.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
+}
