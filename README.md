@@ -1,7 +1,7 @@
 React Native Demo using Expo
 ============================
 
-![Screen Shot](docs/screen-shot.png)
+<img src="docs/screen-shot.png" alt="Screen Shot" width="300"/>
 
 Quick Start
 -----------
